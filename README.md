@@ -1,5 +1,6 @@
 # CitizenCapitalHelp-Server
-You will need to add the file "mongodb_cred.yaml" to the app/config/ folder with the following lines, replacing the x's with your credentials.
+You will need to add the file "mongodb_cred.yaml" to the app/config/ folder with the following 3 lines, replacing the x's with your credentials.
+
 mongodb_credentials:
 uname: xxxxxx
 pwd: xxxxxxx
