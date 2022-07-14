@@ -11,7 +11,8 @@ exports.create = (req, res) => {
   const help_section = new HelpSection({
     topic: req.body.topic,
     title: req.body.title,
-    description: req.body.description
+    description: req.body.description,
+    author: req.body.author
   });
   // Save help_section in the database
   help_section
